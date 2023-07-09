@@ -19,7 +19,7 @@ body {
 .header-section {
     background-image: url('./images/banner/banner1.png');
 
-    /* height: 808px; */
+    height: 700px;
     background-position: left;
     background-repeat: no-repeat;
 
@@ -33,4 +33,68 @@ body {
     padding: 15px;
     font-size: 20px;
     margin-bottom: 120px;
+}
+
+.img {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.banner-description {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+.section2-hader {
+    text-align: center;
+}
+
+.section2-description {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.icons {
+    width: 40px;
+}
+
+.section2-description {
+    text-align: center;
+
+
+}
+
+.section2 {
+    margin-top: 80px;
+
+}
+
+
+.section3 {
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 190px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.section3-description {
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.ok {
+    margin-top: 60px;
 }
