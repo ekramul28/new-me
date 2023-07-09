@@ -1,4 +1,10 @@
 /* common style */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -30,9 +36,35 @@ body {
     border-radius: 5px;
     background: #F15B22;
     color: white;
-    padding: 15px;
+    padding: 10px 15px;
     font-size: 20px;
-    margin-bottom: 120px;
+    margin-top: 10px;
+
+}
+
+.btn1 {
+
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.btn2 {
+
+    border-radius: 5px;
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+
+p {
+    margin: 10px;
 }
 
 .img {
@@ -55,6 +87,7 @@ body {
 
 .section2-hader {
     text-align: center;
+    margin: 30px;
 }
 
 .section2-description {
@@ -97,4 +130,37 @@ body {
 
 .ok {
     margin-top: 60px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.footer-description {
+    color: white;
+    padding: 100px;
+    margin: 10px;
+}
+
+.footer-section {
+    background-color: #151414;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.footer-header {
+    margin-bottom: 10px;
+}
+
+.email {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin: 10px;
 }
