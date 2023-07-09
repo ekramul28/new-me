@@ -10,6 +10,29 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.icon:hover {
+    width: 70px;
+}
+
+
+
+
+
 /* header style */
 .header-description {
 
@@ -162,5 +185,5 @@ p {
 }
 
 .icon {
-    margin: 10px;
+    margin: 20px;
 }
